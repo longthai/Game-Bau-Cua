@@ -1,1 +1,1 @@
-Live page: https://github.com/longthai/Game-Bau-Cua
+Live page: https://longthai.github.io/Game-Bau-Cua/
