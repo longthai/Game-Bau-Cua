@@ -15,6 +15,7 @@ const spin = () => {
     //Kiểm tra xem người dùng đã đặt cửa chưa.
     if (betRes.length < 3) {
         document.getElementById('message').innerHTML = "<h2>Vui lòng đặt đủ ô trước khi quay</h2>"
+        resetBtn.disabled = false;
         spinBtn.disabled = false;
     } else {
         intervalId = setInterval( () => {
